@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index\index.css">
+    <link rel="stylesheet" href="relation_company\company.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <title>YeonHo's instroduction</title>
+</head>
+<body>
+    <div id="topContents">
+        <div id="time">
+            현재시간 : <span id="currentTime"></span>
+        </div>
+        <div>
+            <a href="https://github.com/chopchoplol?tab=repositories" id="githubLink">
+                YeonHo's GitHub
+                <img id="gitCat" src="images\GitHubcat.png">
+            </a>
+        </div>
+        <div id="slideshow">
+            <a href="index.html"><img src="images\welcome!.png" class="slide active"></a>
+            <a href="skills.html"><img src="images\data.png" class="slide"></a>
+            <a href="futurePlan.html"><img src="images\future.png" class="slide"></a>
+       </div>         
+    </div>
+    <div id="mainContent">
+        <div class="floating-menu">
+            <div class="menu-button">menu</div>
+            <div class="menu-content">
+                <div class="contentAnchor">
+                    <a href="index.html" class="header">Introduction</a>
+                    <a href="skills.html" class="header">Skills of Interest</a>
+                    <a href="company.html" class="header">Relation Company</a>
+                    <a href="futurePlan.html" class="header">Future Plan</a>
+                </div>
+            </div>
+        </div>
+        <ul id="navbar">
+            <li>
+                <div class="navbox">
+                    <a class="menu" href="index.html">Introduction</a>
+                </div>
+            </li>
+            <li>
+                <div class="navbox">
+                    <a class="menu" href="skills.html">Skills Of Interest</a>
+                </div>
+            </li>
+            <li>
+                <div class="navbox">
+                    <a class="menu" href="company.html">Relation Company</a>
+                </div>
+            </li>
+            <li>
+                <div class="navbox">
+                    <a class="menu" href="futurePlan.html">Future Plan</a>
+                </div>
+            </li>
+        </ul>      
+        <hr>
+        <div id="beforestart">
+            <div class="smallHeader">
+                Relation companies
+            </div>
+            <br>
+            <p>
+                이 문단은 제가 현재 관심을 가지고 있고, 앞으로 기회가 되면 지원할 생각을 하고 있는 기업들입니다.<br>
+                현재 작성되어 있는 부분은 제가 지금 관심을 가지고 있는 기업들입니다.<br>
+                회사 리스트를 추가할 때는 현재 로컬 스토리지를 이용하고 있습니다.<br>
+                추후 데이터베이스 구축을 통해 모든 사용자가 추가된 회사를 확인할 수 있도록 할 예정입니다.<br>
+                <br>
+                *회사 로고를 클릭 시 해당 홈페이지로 이동합니다.
+            </p>
+        </div>
+        <input id="addbtn" value="+ 추가" type="button">
+        <hr style="border: 0; height: 5px; background-color: gray;">
+        <div id="companyList"></div>
+    </div>
+    <div id="inputcompany">
+        <form id="companyform">
+            <div>
+                <label>
+                    <h3>대표 이미지 파일(웹 이미지 URL)</h3>
+                    <input type="url" id="inputimage" class="inputbox" placeholder="해당 회사의 홈페이지에서 복사한 로고의 URL을 입력하세요.">
+                </label>
+            </div>
+            <img src="images\x.png" alt="x" id="closePage">
+            <label>
+                <h3>회사 홈페이지 URL</h3>
+                <input type="url" class="inputbox" id="inputurl" placeholder="URL 입력">
+            </label>
+            <label>
+                <h3>회사 이름</h3>
+                <input type="text" class="inputbox" id="inputname" placeholder="이름 입력">
+            </label>
+            <label>
+                <h3>회사 설명</h3>
+                <textarea class="inputTextArea" id="companydescription" placeholder="회사에 대한 설명"></textarea>
+            </label>
+            <label>
+                <h3>대표 게임 로고(웹 이미지 URL)</h3>
+                <input type="url" id="gamelogo" class="inputbox" placeholder="해당 회사의 홈페이지에서 복사한 로고의 URL을 입력하세요.">
+            </label>
+            <label>
+                <h3>게임 이름</h3>
+                <input type="text" class="inputbox" id="inputGameName" placeholder="게임 이름 입력">
+            </label>
+            <label>
+                <h3>게임 설명</h3>
+                <textarea class="inputTextArea" id="gamedescription" placeholder="게임에 대한 설명"></textarea>
+            </label>
+            <input id="addcombtn" value="확인" type="submit">
+        </form>
+    </div>
+    <script src="relation_company\company.js"></script>
+    <script src="index\index.js"></script>
+</body>
+</html>

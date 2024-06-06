@@ -1,0 +1,37 @@
+#introductionContents{
+    margin-top: 5%;
+}
+#languageImages{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.languageImages img{
+    width: 150px;
+    transition: width 0.3s;
+    margin: 15px;
+}
+.languageImages img:hover{
+    width: 180px;
+}
+#ordb{
+    width: 250px;
+    transition: width 0.3s;
+}
+#ordb:hover{
+    width: 280px;
+}
+#VisualizationTools{
+    margin-top: 40px;
+}
+#VisualizationTools img{
+    width: 300px;
+    transition: width 0.3s;
+}
+#VisualizationTools img:hover{
+    width: 330px;
+}
+.menu-content.active{
+    visibility: visible;
+    height: 510px;
+}

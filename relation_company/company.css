@@ -1,0 +1,100 @@
+.smallsmallHeader{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+}
+#beforestart{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.companyContents img{
+    width: 30%;
+    margin-top: 30px;
+}
+.companyContents h2{
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+#companyList hr{
+    border: 0;
+    height: 5px;
+    background-color: gray;
+}
+.menu-content.active{
+    visibility: visible;
+    height: 190px;
+}
+#addbtn{
+    float: right;
+    margin-top: 200px;
+    margin-right: 40px;
+    width: 180px;
+    height: 70px;
+    border: 0;;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#addbtn:hover{
+    cursor: pointer;
+}
+#inputcompany{
+    display: inline-block;
+    padding: 30px;
+    border-radius: 20px;
+    height: 850px;
+    background-color: white;
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 28%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px, rgba(0, 0, 0, 0.5) 2px 2px 3px 3px;
+    z-index: 100;
+}
+#inputcompany div{
+    display: inline-block;
+}
+#companyform h3{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#closePage{
+    float: right;
+    width: 20px;
+    cursor: pointer;
+}
+#addcombtn{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+#addcombtn:hover{
+    cursor: pointer;
+}
+.inputbox{
+    width: 700px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.inputbox2{
+    width: 600px;
+    height: 40px;
+    padding-left: 15px;
+    outline: none;
+    border-radius: 10px;
+}
+.inputTextArea{
+    width: 700px;
+    height: 100px;
+}

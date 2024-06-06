@@ -1,0 +1,20 @@
+#skillContents{
+    margin-top: 5%;
+}
+#dataTable{
+    border-collapse: collapse;
+}
+#dataTable thead{
+    color: white;
+    background-color: blue;
+}
+#dataTable td, th{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid lightgray;
+}
+.menu-content.active{
+    visibility: visible;
+    height: 430px;
+}

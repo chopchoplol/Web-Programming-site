@@ -1,0 +1,7 @@
+.menu-content.active{
+    visibility: visible;
+    height: 190px;
+}
+#planner{
+    background-color: white;
+}

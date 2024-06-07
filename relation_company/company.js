@@ -24,7 +24,7 @@ var companyList = document.getElementById("companyList");
 var keys = Object.keys(localStorage);
 
 keys.forEach(key => {
-    const value = JSON.parse(localStorage.getItem(key));
+    var value = JSON.parse(localStorage.getItem(key));
     if (companies.indexOf(value) === -1) {
         companies.push(value);
     }

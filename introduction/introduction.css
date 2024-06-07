@@ -12,6 +12,7 @@
     margin: 15px;
 }
 .languageImages img:hover{
+    cursor: pointer;
     width: 180px;
 }
 #ordb{
@@ -19,12 +20,14 @@
     transition: width 0.3s;
 }
 #ordb:hover{
+    cursor: pointer;
     width: 280px;
 }
 #VisualizationTools{
     margin-top: 40px;
 }
 #VisualizationTools img{
+    cursor: pointer;
     width: 300px;
     transition: width 0.3s;
 }

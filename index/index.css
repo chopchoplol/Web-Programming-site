@@ -1,9 +1,11 @@
 body{
     font-family: "Noto Sans KR", sans-serif;
+    height: 1000px;
     margin: 0;
 }
 #topContents{
     position: relative;
+    height: 80%;
     background-color: black;
 }
 #time{
@@ -41,7 +43,7 @@ body{
 #slideshow {
     position: relative;
     width: 100%;
-    height: 720px;
+    height: 100%;
     overflow: hidden;
     z-index: 1;
 }
